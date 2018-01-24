@@ -1,8 +1,6 @@
 
 
-.invisible {
-	visibility: hidden;
-}
+
 
 body {
 	width: 100%;
@@ -23,17 +21,22 @@ div {
 	background-color: rgba(202, 204, 226, 0.4);
 	max-height: 240px;
 	padding-top: 10px;
+	padding-left: 240px;
 
 }
 .display-4 {
 	font-family: 'Fugaz One', cursive;
 	font-size: 60px;
 	margin: 15px;
+
 }
 .lead {
-	font-family: 'Sacramento', cursive;
-	font-size: 40px;
+	font-family: 'Niconne', cursive;
+	font-size: 32px;
+	line-height: 120%;
 	color: #ebecff;
+	text-align: center;
+
 }
 .col-md-2 {
 	background-color: rgba(202, 204, 226, 0.4);
@@ -71,12 +74,15 @@ div {
 	margin: 15px;	
 }
 .gameExplanation {
-	font-family: 'Anton', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 24px;
 	color: #213236;
 	line-height: 161.8%;
 	margin: 15px;
 	padding: 5px;
+}
+#winLoseModal {
+	margin-top: 5%;
 }
 .btn-secondary {
 	font-family: 'Fugaz One', cursive;
