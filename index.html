@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>crystals collector</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Fugaz+One|Josefin+Slab|Sacramento" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body>
+  <!-- <img class="img-responsive" src="assets/images/mine.jpg"> -->
+  <div class="jumbotron">
+    <h1 class="display-4">crystals collector</h1>
+    <p class="lead col-md-6">Collect valuable crystals!  But if you get greedy and overload your cart, you'll lose them all!
+  </div>
+
+  <div class="modal fade" id="howToPlayModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Crystals Collector</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;  </span>
+          </button>
+        </div>
+        <div class="modal-body gameExplanation">
+          <p>Each round you will be given a new target number.  Your goal is to exactly hit that target number by clicking on the four crystals, each with a hidden value!  Hit the value and you win the round and get to keep the full contents of your cart!  Go over and you lose them...  Each new round brings a new target value and new crystal values.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">start playing!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <p class="targetNumberColumn col-md-3 mr-2">target number: <span id="number-to-guess" class="numberDisplay"></span></p>
+    <p class="winLossColumn col-md-2 mr-2">
+      wins: <span id="winsDisplay" class="numberDisplay"></span><br>
+      losses: <span id="lossesDisplay" class="numberDisplay"></span>
+    </p>
+    <div id="cartDiv" class="col-md-4 mr-2">
+      present value in your cart: <br><span id="cartCounterDisplay"></span>
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="crystalsDiv" class="col-md-5 mr-2"><audio id="audio" src="assets/sounds/sound3.mp3" type="audio/mpeg"></audio>
+    </div>  
+
+    <div id="totalScoreDiv" class="col-md-4 mr-2">total value of crystals collected: <br><span id="scoreDisplay"></span>
+    </div>
+  </div>
+<script type="text/javascript" src="assets/javascript/script.js">
+</script>
+</body>
+</html>

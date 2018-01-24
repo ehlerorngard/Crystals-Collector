@@ -1,0 +1,141 @@
+
+
+.invisible {
+	visibility: hidden;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: ;
+	background-image: url(../images/mine.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div {
+	border-radius: 4px;
+}
+.row {
+	display: inline-block;
+	width: 100%;
+}
+.jumbotron {
+	background-color: rgba(202, 204, 226, 0.4);
+	max-height: 240px;
+	padding-top: 10px;
+
+}
+.display-4 {
+	font-family: 'Fugaz One', cursive;
+	font-size: 60px;
+	margin: 15px;
+}
+.lead {
+	font-family: 'Sacramento', cursive;
+	font-size: 40px;
+	color: #ebecff;
+}
+.col-md-2 {
+	background-color: rgba(202, 204, 226, 0.4);
+	float: left;
+	margin: 15px;
+	padding: 5px;
+}.col-md-3 {
+	background-color: rgba(202, 204, 226, 0.4);
+	float: left;
+	margin: 15px;
+	padding: 5px;
+}
+
+.col-md-4 {
+	background-color: rgba(202, 204, 226, 0.4);
+	float: left;
+	margin: 15px;
+	padding: 5px;
+}
+.col-md-5 {
+	background-color: rgba(202, 204, 226, 0.4);
+	float: left;
+	margin: 15px;
+	padding: 5px;
+}
+.modal-content {
+	background-color: rgba(170, 202, 196, 0.83);
+	width: 150%;
+	margin-left: -25%;
+}
+.modal-title {
+	font-family: 'Fugaz One', cursive;
+	color: #873b4e;
+	font-size: 60px;
+	margin: 15px;	
+}
+.gameExplanation {
+	font-family: 'Anton', sans-serif;
+	font-size: 24px;
+	color: #213236;
+	line-height: 161.8%;
+	margin: 15px;
+	padding: 5px;
+}
+.btn-secondary {
+	font-family: 'Fugaz One', cursive;
+	color: #2e5b66;
+	font-size: 30px;
+	padding: 10px;	
+}
+.targetNumberColumn {
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	background-color: rgba(202, 204, 226, 0.4);
+	margin: 15px 15px 15px 30px;
+	padding: 5px;
+	border-radius: 4px;
+}
+.winLossColumn {
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	background-color: rgba(202, 204, 226, 0.4);	
+	margin: 15px;
+	padding: 5px;
+	border-radius: 4px;
+}
+#cartDiv {
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	background-color: rgba(202, 204, 226, 0.4);	
+	margin: 15px;
+	padding: 5px;
+	border-radius: 4px;
+	height: 150px;
+}
+#cartCounterDisplay {
+	align-content: center;
+	font-size: 50px;
+}
+#totalScoreDiv {
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	background-color: rgba(202, 204, 226, 0.4);
+	height: 150px;
+}
+#scoreDisplay {
+	align-content: center;
+	font-size: 50px;
+}
+.numberDisplay {
+	font-size: 40px;
+}
+#crystalsDiv {
+	background: none;
+}
+.crystal-image {
+	width: 100px;
+	height: auto;
+	margin: 15px;
+}
+
+font-family: 'Anton', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Fugaz One', cursive;
