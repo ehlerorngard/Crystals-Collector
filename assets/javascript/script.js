@@ -8,10 +8,10 @@ var imageCrystal = null;
 var numberOptions = [];
 
 var imageArray = [
-  "file:///Users/ehlerorngard/Desktop/Crystals-Collector/assets/images/gem4.png",
-  "file:///Users/ehlerorngard/Desktop/Crystals-Collector/assets/images/gem5.png",
-  "file:///Users/ehlerorngard/Desktop/Crystals-Collector/assets/images/gem6.png",
-  "file:///Users/ehlerorngard/Desktop/Crystals-Collector/assets/images/gem7.png"
+  "../Crystals-Collector/assets/images/gem4.png",
+  "../Crystals-Collector/assets/images/gem5.png",
+  "../Crystals-Collector/assets/images/gem6.png",
+  "../Crystals-Collector/assets/images/gem7.png"
 ];
 
 // var audio1 = new Audio("../Crystals-Collector/assets/sounds/sound3.mp3");
