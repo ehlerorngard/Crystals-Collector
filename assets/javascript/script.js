@@ -92,7 +92,7 @@ $(".crystal-image").on("click", function(e) {
     // $("#crystalsDiv").empty();
 
     // I tried to write a function to execute the for loop hereupon, but ran into what I can only guess is scoping issues... the click event would not trigger anything...
-    imageCrystal = null;
+    // imageCrystal = null;
     for (var i = 0; i < 4; i++) {
       var randomImage = Math.floor(Math.random() * imageArray.length); // selects the image randomly
       var randomVal = Math.floor(Math.random() * 12) + 1; // creates a random value between 1 and 12 to be used for the image's crystal value
@@ -140,6 +140,7 @@ $(".crystal-image").on("click", function(e) {
       imageCrystal.attr("data-crystalvalue", numberOptions[i]); // grabs the random value randomVal and sets it as an attribute of the crystal
       // console.log(imageCrystal);
       $("#crystalsDiv").append(imageCrystal);
+      debugger;
       imageArray.splice(randomImage, 1);
     }
     console.log(numberOptions);
