@@ -82,11 +82,20 @@ $(".crystal-image").on("click", function(e) {
   $("#cartCounterDisplay").text(cartCounter);
 
   if (cartCounter === targetNumber) {
+    $('#winLoseModalTitle').text('You won the full value of your cart!');
     $('#winLoseModal').modal('show');
     wins++;
     counter += cartCounter;
     cartCounter = 0;
     $("#winsDisplay").text(wins);
+    $("#scoreDisplay").text(counter);
+    
+    var randomTarget = Math.floor(Math.random() * 102) + 19;  // generates the random target number between 19 and 120
+    targetNumber = randomTarget;
+    $("#number-to-guess").text(targetNumber);
+    $("#winsDisplay").text(wins);
+    $("#lossesDisplay").text(losses);
+    $("#cartCounterDisplay").text(cartCounter);
     $("#scoreDisplay").text(counter);
     newCrystalSet();
     // $("#crystalsDiv").empty();
@@ -107,13 +116,7 @@ $(".crystal-image").on("click", function(e) {
       imageArray.splice(randomImage, 1);
     }
     console.log(imageCrystal);
-    var randomTarget = Math.floor(Math.random() * 102) + 19;  // generates the random target number between 19 and 120
-    targetNumber = randomTarget;
-    $("#number-to-guess").text(targetNumber);
-    $("#winsDisplay").text(wins);
-    $("#lossesDisplay").text(losses);
-    $("#cartCounterDisplay").text(cartCounter);
-    $("#scoreDisplay").text(counter);
+
 
   }
   else if (cartCounter >= targetNumber) {
